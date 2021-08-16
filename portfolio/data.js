@@ -8,3 +8,13 @@ export const github = "https://github.com/shriram192";
 
 export const about = `Final Year Computer Engineering Student with outstanding academic record.
   Successful project manager with relevant certifications who has leveraged latest technologies for driving business transformation.`;
+
+export const skills = [
+  "Data Analytics",
+  "Data Engineering",
+  "Solutions Architect",
+  "Data Science",
+  "Cross-Platform-Development",
+  "Cloud Security",
+  "Project Management",
+];
