@@ -8,9 +8,9 @@ import Skills from './Skills';
 
 const TabsComponent = () => {
     return (
-        <Flex w="100vw" h="50vh" justifyContent="center">
-            <Tabs variant="soft-rounded" colorScheme="teal">
-                <TabList>
+        <Flex w="100vw" minH="40vh" h="auto" justifyContent="center" alignItems="center">
+            <Tabs variant="soft-rounded" colorScheme="teal" >
+                <TabList justifyContent="center" alignItems="center">
                     <Tab>Skills</Tab>
                     <Tab>Certifications</Tab>
                     <Tab>Experience</Tab>

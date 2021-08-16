@@ -13,7 +13,7 @@ const Skills = () => {
                         <ListItem>
                                 <Flex alignItems="center">
                                 <ListIcon as={AiOutlineCheckCircle} w={7} h={7} color="green.500" />
-                                <Text>{skill}</Text>
+                                <Text fontSize="20px">{skill}</Text>
                                 </Flex>
                         </ListItem>
                     );
