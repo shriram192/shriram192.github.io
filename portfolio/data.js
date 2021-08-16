@@ -127,3 +127,49 @@ export const experience = [
     tech: ["Java 8", "Maven", "Springboot"],
   },
 ];
+
+export const academics = [
+  {
+    tenure: "1 JULY 2018 - PRESENT",
+    title: "B.Tech Computer Engineering / FCRIT, Vashi ,Mumbai",
+    result: "Overall CGPA – 9.703 / 10",
+  },
+  {
+    tenure: "1 APRIL 2016 – 31 MARCH 2018",
+    title: "HSC / DAV Public School, Seawoods, Mumbai",
+    result: "Percentage – 95.2% in CBSE",
+  },
+  {
+    tenure: "1 APRIL 2015 – 31 MARCH 2016",
+    title: "SSC / DAV Public School, Seawoods, Mumbai",
+    result: "CGPA – 10/10 in CBSE",
+  },
+];
+
+export const hobbies = [
+  "Basketball (Power Forward)",
+  "Fitness - Crossfit Athlete",
+  "Chess - District Level",
+];
+
+export const languages = ["English", "Hindi", "Tamil", "Sanskrit"];
+
+export const socialwork = [
+  {
+    title: "Samskaaram",
+    desc: "Built Mobile App for Samskaaram (www.samskaaram.com) a Vedic education website",
+  },
+  {
+    title: "Swasthya Seva",
+    desc: "Working on Payment Gateway and Upgrading Technology Stack for https://swasthyaseva100.com/",
+  },
+  {
+    title: "Computer Society of India",
+    desc: `
+    Treasurer and Technical Head
+    Computer Society of India, Mumbai Chapter
+    Dates volunteered - June 2020 - June 2021 
+    Cause - Science, and Technology
+    `,
+  },
+];

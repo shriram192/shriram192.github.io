@@ -1,6 +1,6 @@
 import { Flex, List, ListIcon, ListItem, SimpleGrid, Text } from '@chakra-ui/react';
 import React from 'react';
-import { AiOutlineCheckCircle } from 'react-icons/ai';
+import { GrTechnology } from 'react-icons/gr';
 import { skills } from '../data';
 
 const Skills = () => {
@@ -10,10 +10,10 @@ const Skills = () => {
             <SimpleGrid columns="2" spacingY="2" spacingX="10">
                 {skills.map((skill) => {
                     return (
-                        <ListItem>
+                        <ListItem boxShadow="md" borderWidth="1px" borderRadius="10px" py="10px" px="20px">
                                 <Flex alignItems="center">
-                                <ListIcon as={AiOutlineCheckCircle} w={7} h={7} color="green.500" />
-                                <Text fontSize="20px">{skill}</Text>
+                                <ListIcon as={GrTechnology} w={7} h={7} />
+                                <Text fontSize="22px" fontWeight="bold" color="teal.500" minW="10vw" maxW='40vw'>{skill}</Text>
                                 </Flex>
                         </ListItem>
                     );

@@ -16,7 +16,7 @@ const Experience = () => {
                             <Text fontSize="16px" fontWeight="bold" color="gray.600">{exp.desc}</Text>
                             <Box my="5px">
                             {
-                                exp.tech.map((item) => { return <Badge mx="7px" colorScheme="teal" >{item}</Badge>; })
+                                exp.tech.map((item) => { return <Badge mr="15px" colorScheme="teal" >{item}</Badge>; })
                                 }
                                 </Box>
                         </ListItem>
