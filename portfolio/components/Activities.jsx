@@ -9,7 +9,7 @@ const Activities = () => {
                 <Text color="teal.500" fontWeight="bold" fontSize="22px">Hobbies</Text>
                 {hobbies.map((hobby) => {
                     return (
-                        <Text fontSize="18px" minW="10vw" maxW='40vw'>{hobby}</Text>
+                        <Text fontSize="18px" minW="10vw" maxW={{base:'80vw', md:'40vw'}}>{hobby}</Text>
                     );
                 })}
             </Box>
@@ -18,7 +18,7 @@ const Activities = () => {
                 <Text color="teal.500" fontWeight="bold" fontSize="22px">Language</Text>
                 {languages.map((lang) => {
                     return (
-                                <Text fontSize="18px" minW="10vw" maxW='40vw'>{lang}</Text>
+                                <Text fontSize="18px" minW="10vw" maxW={{base:'80vw', md:'40vw'}}>{lang}</Text>
                     );
                 })}
             </Box>
@@ -28,8 +28,8 @@ const Activities = () => {
                 {socialwork.map((social) => {
                     return (
                         <>
-                                <Text fontSize="18px" minW="10vw" maxW='40vw' fontWeight="bold" color="gray.700">{social.title}</Text>
-                            <Text fontSize="16px" minW="10vw" maxW='40vw' color="gray.600">{social.desc}</Text>
+                                <Text fontSize="18px" minW="10vw" maxW={{base:'80vw', md:'40vw'}} fontWeight="bold" color="gray.700">{social.title}</Text>
+                            <Text fontSize="16px" minW="10vw" maxW={{base:'80vw', md:'40vw'}} color="gray.600">{social.desc}</Text>
                             </>
                     );
                 })}

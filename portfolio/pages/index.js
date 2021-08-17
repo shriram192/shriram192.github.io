@@ -17,7 +17,7 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Box m="30px">
+      <Box m={{ base: "5px", lg: "30px" }}>
         <Intro />
         <TabsComponent />
       </Box>

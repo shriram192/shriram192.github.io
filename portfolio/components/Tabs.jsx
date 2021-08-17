@@ -8,9 +8,9 @@ import Skills from './Skills';
 
 const TabsComponent = () => {
     return (
-        <Flex w="100vw" minH="40vh" h="auto" justifyContent="center" alignItems="center">
+        <Flex mt={{base: '15px',md: "0px"}} w="100vw" minH="40vh" h="auto" justifyContent="center" alignItems="center">
             <Tabs variant="soft-rounded" colorScheme="teal" >
-                <TabList justifyContent="center" alignItems="center">
+                <TabList justifyContent="center" alignItems="center" flexDir={{base: 'column',md: 'row'}}>
                     <Tab>Skills</Tab>
                     <Tab>Certifications</Tab>
                     <Tab>Experience</Tab>

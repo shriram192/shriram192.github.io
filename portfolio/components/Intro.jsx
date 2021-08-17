@@ -4,11 +4,11 @@ import { about } from '../data';
 
 const Intro = () => {
     return (
-        <Flex w="100vw" h="50vh" alignItems="center" justifyContent="center">
-            <Avatar w="300px" h="300px" src="/shriram.jpeg" name="B SHRIRAM ATHREYA" mr="50px" />
+        <Flex mt={{base: "20px",md: "0px"}} w="100vw" minH="50vh" h="auto" alignItems="center" justifyContent="center" flexDir={{base: 'column',md: 'row'}}>
+            <Avatar w="300px" h="300px" src="/shriram.jpeg" name="B SHRIRAM ATHREYA" mr={{base: "0px", md:"50px"}} />
             <Box>
-                <Text fontSize="4xl" fontWeight="bold" color="teal.500">B SHRIRAM ATHREYA</Text>
-            <Text fontWeight="bold" fontSize="3xl" fontStyle="italic" w="60vw" color="gray.700">
+                <Text fontSize={{base:"2xl",  md:"4xl"}} fontWeight="bold" textAlign={{base: "center",md:'left'}} color="teal.500">B SHRIRAM ATHREYA</Text>
+                <Text fontWeight="bold" fontSize={{base: "xl", md:"3xl"}} textAlign={{base: "center",md: 'left'}}  fontStyle="italic" w={{base:'80vw', md:"60vw"}} color="gray.700">
                 {about}
             </Text>
             </Box>
